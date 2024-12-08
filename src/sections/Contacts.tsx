@@ -39,6 +39,7 @@ const Contacts = ({ hue1 = 60, hue2 = 180 }: ContactsProps) => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm<Inputs>({ resolver: yupResolver(schema) });
 
@@ -51,6 +52,7 @@ const Contacts = ({ hue1 = 60, hue2 = 180 }: ContactsProps) => {
         await emailjs.sendForm(emailJsServiceId, emailJsTemplateId, formRef, {
           publicKey: emailJsPublicKey,
         });
+        reset();
       } catch (error) {
         setSubmitError(true);
       } finally {
@@ -165,8 +167,9 @@ const Contacts = ({ hue1 = 60, hue2 = 180 }: ContactsProps) => {
                 <button
                   disabled={isLoading}
                   className={classNames(
-                    'flex items-center justify-center gap-1 rounded-lg bg-surface-twilight px-6 py-3 text-white',
-                    { 'bg-surface-misty-morning': isLoading }
+                    { 'bg-surface-misty-morning': isLoading },
+                    { 'bg-surface-twilight': !isLoading },
+                    'flex items-center justify-center gap-1 rounded-lg px-6 py-3 text-white'
                   )}
                 >
                   <span className="mr-2 h-2.5 w-2.5 rounded-full bg-white shadow-circle-glow"></span>
