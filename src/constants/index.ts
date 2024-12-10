@@ -99,7 +99,7 @@ export const aboutCards = [
   {
     hue1: 100,
     hue2: 220,
-    text: "I earned my Bachelor's degree in Computer Science from Kharkiv National Polytechnic Institute, one of the leading technical universities in Ukraine. My education equipped me with the skills to solve complex problems and develop efficient software solutions. I actively participated in projects and collaborated with peers, which enhanced my teamwork and communication skills.",
+    text: "I earned my Bachelor's degree in Computer Engineering from Kharkiv National Polytechnic Institute, one of the leading technical universities in Ukraine. My education equipped me with the skills to solve complex problems and develop efficient software solutions. I actively participated in projects and collaborated with peers, which enhanced my teamwork and communication skills.",
     title: 'Education',
     icon: '📜',
   },
@@ -116,21 +116,26 @@ export const experiences = [
   {
     title: "Frontend Developer in 'Ronis'",
     time: 'November 2021 - December 2021',
-    text: "I created a children's shoe sales lending. Stack: HTML/SCSS/JavaScript.",
+    text: `Designed and developed a landing page for a children’s shoe sales business.
+        Focused on responsive design and cross-browser compatibility using HTML, SCSS, and JavaScript.`,
   },
   {
     title: 'Nix Education - Front-End/JavaScript',
     time: 'August 2022 - February 2023',
-    text: 'During my university studies I went through a training program with Nix Solution, where I created an online store (HTML/CSS) and a weather forecasting application (React).',
+    text: `Completed a comprehensive training program with Nix Solution during university studies.
+          Developed an online store using HTML/CSS and a weather forecasting application utilizing React, focusing on clean code and usability.`,
   },
   {
     title: "Frontend Developer in 'Remont Stroy'",
     time: 'August 2022 - October 2022',
-    text: 'Created a corporate website for a construction firm. Stack: HTML/SCSS/Gulp/JavaScript.',
+    text: `Built a corporate website for a construction company from scratch.
+          Applied HTML, SCSS, Gulp, and JavaScript to build a robust and efficient website with a focus on scalability and seamless performance.`,
   },
   {
     title: "Frontend Developer in 'Spokane Development'",
     time: 'October 2023 - February 2024',
-    text: 'I was involved in finalizing a furniture website. I came up with and implemented UI solutions that helped the site look better. Stack: Next.js/TypeScript/CSS modules. Created a frontend for a sanitary ware store, implementing search, product filtering, shopping cart, and routing. Stack: Next.js 14/TypeScript/CSS modules/Apollo. Created a lending site.',
+    text: `Enhanced a furniture website, proposing and implementing UI improvements to elevate the site's aesthetic and functionality (Next.js, TypeScript, CSS Modules).
+          Developed a sanitary ware store frontend, incorporating advanced features such as search, product filtering, shopping cart functionality, and routing using Next.js 14, TypeScript, Apollo, and CSS Modules.
+          Delivered a high-performance landing page tailored to client needs.`,
   },
 ];
