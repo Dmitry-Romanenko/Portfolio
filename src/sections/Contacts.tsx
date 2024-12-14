@@ -116,7 +116,7 @@ const Contacts = ({ hue1 = 60, hue2 = 180 }: ContactsProps) => {
                 <img src={whatsapp} className="h-5 w-5" />
               </a>
               <a
-                href="https://www.linkedin.com/in/dmitry-romanenko-bb1615340"
+                href="https://www.linkedin.com/in/dmytro-romanenko-532389341"
                 className="flex h-10 w-10 items-center justify-center rounded-xl border-t-[1px] border-surface-twilight bg-surface-nightfall"
               >
                 <img src={linkedIn} className="h-5 w-5" />
